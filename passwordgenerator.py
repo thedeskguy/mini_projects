@@ -20,4 +20,4 @@ random.shuffle(password)
 final_password=""
 for char in password:
     final_password+=char
-print(final_password)
+print(f"Your password is {final_password}")
